@@ -18,6 +18,7 @@ const CONTRACT_ADDRESS = "0x2483CD7f6bdE4cC603cd9587273692791E7B0569";
     });
 
     console.log(listOfListings);
+    process.exit(0);
   } catch (err) {
     console.error(err);
     process.exit(1);
